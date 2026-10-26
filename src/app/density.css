@@ -1,0 +1,71 @@
+/* A denser research layout: keep data readable and reduce presentation spacing. */
+.hero .hero-grid{padding-block:28px 30px;gap:30px}
+.hero .hero-chart{padding:15px 16px 0}
+.hero h1{margin:17px 0 14px;font-size:clamp(30px,3vw,40px);line-height:1.35}
+.hero .hero-buttons{margin-top:18px;gap:10px}
+.hero .hero-facts{margin-top:25px;gap:28px}
+.hero .hero-facts b{font-size:27px}
+.hero .chart-head h3{margin:4px 0 6px;font-size:13px}
+.hero .chart-foot{margin-top:8px;padding-block:9px}
+.hero .hero-chart-decoration{display:none}
+.hero .qp-plot{padding-top:5px}
+.site-header nav{gap:25px}
+.section{padding-block:40px}
+.section .section-head{margin-bottom:20px;gap:18px}
+.section .section-head h2{margin:8px 0 4px;font-size:25px}
+.section-side{gap:5px}
+.leaderboard-panel .metric-tabs>button{padding-block:13px 12px}
+.leaderboard-panel .filter-row{padding-block:13px 10px}
+.leaderboard-panel .metric-context{padding-bottom:10px}
+.leaderboard-table th{height:36px;padding-block:8px}
+.leaderboard-table td{height:55px;padding-block:8px}
+.leaderboard-table{min-width:975px}
+.leaderboard-table th:nth-child(3){width:210px}
+.leaderboard-table th:nth-child(4){width:135px}
+.leaderboard-table th.metric-selected{background:#edf3fa;color:#315b9a}
+.leaderboard-table td.metric-selected{background:#f7faff;color:#315b9a}
+.leaderboard-table .model-avatar{width:29px;height:29px}
+.leaderboard-table .model-button small{margin-top:3px}
+.leaderboard-panel .large-chart{padding:18px 20px}
+.report-section{background:#fff;border-top:1px solid #e9eef3;padding-top:32px}
+.report-heading-actions{display:flex;align-items:center;gap:10px}
+.report-heading-actions button{display:inline-flex;align-items:center;gap:7px;border:1px solid #d9e3eb;border-radius:3px;background:#fff;color:#55738e;font-size:11px;padding:7px 10px;cursor:pointer}
+.report-heading-actions button:hover{border-color:#8ca8c1;color:#315b9a}
+.case-grid{gap:12px}
+.case-grid .case-card{padding:18px 20px 0}
+.case-grid .case-body{padding-block:18px;gap:20px;grid-template-columns:minmax(0,1fr) 78px}
+.case-grid .case-body h3{font-size:17px;margin-block:7px 9px;line-height:1.5}
+.case-grid .case-body p{font-size:11px;line-height:1.7}
+.case-grid .case-card-tags{margin-top:12px;gap:10px}
+.case-grid .case-score b{font-size:29px}
+.case-grid .case-card-bottom{padding-block:12px}
+.method-layout{grid-template-columns:180px minmax(0,1fr);gap:30px}
+.method-tabs button{min-height:49px;padding:10px 13px}
+.method-content{min-height:280px}
+.dataset-row{padding-block:17px}
+.dataset-row h3{margin-block:4px 6px}
+.method-heading{padding-top:17px}
+.protocol-grid{gap:18px}
+.verification-section{padding-block:38px}
+.verification-grid{gap:50px}
+.verification-copy h2{font-size:28px;margin-block:14px 16px}
+.verification-points{margin-block:18px 21px;gap:21px}
+.verification-demo-head{padding-block:13px}
+.claim-list>button{padding-block:12px}
+.evidence-preview{padding:16px 19px;min-height:0}
+.experience-section .tw-layout{min-height:450px}
+.experience-section .tw-config{padding:22px}
+.experience-section .tw-empty{min-height:450px;padding:25px}
+.experience-section .tw-empty h3{font-size:22px}
+.experience-section .tw-empty-icon{width:48px;height:48px;margin-bottom:12px}
+.experience-section .tw-steps .tw-step{padding-block:14px}
+.cooperation-section{padding-block:35px}
+.cooperation-grid{gap:50px}
+.cooperation-grid h2{font-size:26px;margin-block:12px}
+.cooperation-links>button{padding-block:16px}
+footer:has(>.footer-top){padding-top:28px}
+.footer-top{padding-bottom:24px}
+.footer-bottom{padding-block:16px}
+@media(max-width:1050px){.site-header nav{gap:18px}.hero .hero-grid{gap:24px}.hero h1{font-size:32px}.hero .hero-facts{gap:19px}.method-layout{grid-template-columns:160px minmax(0,1fr);gap:24px}}
+@media(max-width:850px){.hero .hero-grid{padding-block:27px;gap:25px}.hero .hero-chart{max-width:560px}.hero h1{font-size:34px}.hero .hero-facts{margin-top:20px}.section{padding-block:32px}.section .section-head{margin-bottom:16px}.verification-grid{gap:28px}.method-layout{grid-template-columns:155px minmax(0,1fr);gap:22px}.case-grid .case-body{grid-template-columns:1fr;gap:12px}.method-content{min-height:270px}.report-heading-actions{flex-wrap:wrap}.cooperation-grid{gap:30px}}
+@media(max-width:600px){.hero .hero-grid{padding-block:24px;gap:22px}.hero h1{font-size:30px}.hero .hero-facts{gap:25px}.hero .hero-chart{padding:12px 10px 0}.hero .hero-facts b{font-size:25px}.section{padding-block:27px}.section .section-head h2{font-size:22px}.section .section-head{gap:12px}.case-grid .case-card{padding:15px 16px 0}.case-grid .case-body{padding-block:15px}.case-grid .case-body h3{font-size:17px}.case-grid .case-score b{font-size:27px}.method-layout{display:block}.method-content{min-height:0}.dataset-row{padding-block:16px}.method-tabs button{min-height:45px}.verification-section{padding-block:29px}.verification-copy h2{font-size:25px}.cooperation-section{padding-block:27px}.cooperation-grid h2{font-size:23px}.experience-section .tw-config{padding:18px}.experience-section .tw-empty{min-height:290px;padding:24px 18px}.experience-section .tw-layout{min-height:0}.experience-section .tw-empty h3{font-size:20px}.experience-section .tw-steps .tw-step{padding-block:12px}.report-heading-actions button{font-size:10px}.leaderboard-panel .filter-row{padding-block:11px 8px}}
